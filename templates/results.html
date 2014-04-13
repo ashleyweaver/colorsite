@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		<title>Make My Match!</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h2 class="text-muted">Better Style Through Science!</h2>
+			</div>
+			<div>
+				<p>The closest color is {{ family }}</p>
+				<p>Analogous colors: {{ matches[0] }}</p>
+				<p>Complementary colors: {{ matches[1] }}</p>
+				<p>Triad colors: {{ matches[2] }}</p>
+			</div>
+		</div>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	</body>
+</html>
